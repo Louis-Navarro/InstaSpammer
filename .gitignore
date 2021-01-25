@@ -144,3 +144,5 @@ config.*
 # Vim temp files
 *.swp
 
+# VSCode
+.vscode
