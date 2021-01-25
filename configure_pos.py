@@ -1,12 +1,12 @@
-import sys
 import json
+import sys
 
-import mouse
 import keyboard
+from autopy import mouse
 
 
 def hotkey(data):
-    pos = mouse.get_position()
+    pos = mouse.location()
     print(f'Added {pos}')
     data.append(pos)
 
