@@ -1,2 +1,2 @@
-mouse
+autopy
 keyboard
